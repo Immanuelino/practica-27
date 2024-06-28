@@ -1,5 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+// src/App.js
+import React from 'react';
+import './App.css';
+import Header from './Header';
+import Footer from './Footer';
+import MainContent from './MainContent';
+import LifecycleDemo from './LifecycleDemo';
+
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <MainContent />
+      <LifecycleDemo />
+      <Footer />
+    </div>
+  );
+}
+
+
 
 function App() {
   return (
