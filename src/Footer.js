@@ -1,12 +1,15 @@
 // src/Footer.js
 import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer>
-      <p>© 2024 My React App</p>
+      <p>&copy; 2024 Mi App de React. Todos los derechos reservados.</p>
+      <p>
+        <a href="#privacy">Política de Privacidad</a> | <a href="#terms">Términos de Servicio</a>
+      </p>
     </footer>
   );
-}
+};
 
 export default Footer;
